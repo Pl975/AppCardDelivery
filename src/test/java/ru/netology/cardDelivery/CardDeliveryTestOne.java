@@ -16,7 +16,7 @@ import java.time.format.DateTimeFormatter;
 
 import static com.codeborne.selenide.Selenide.*;
 
-class CardDeliveryTest {
+class CardDeliveryTestOne {
     public static String setLocalDate(int addDays) {
         String date = LocalDate.now().plusDays(addDays).format(DateTimeFormatter.ofPattern("dd.MM.yyyy"));
         return date;
